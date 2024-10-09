@@ -19,3 +19,8 @@ struct InfoView: View {
             )
     }
 }
+
+
+#Preview(traits: .sizeThatFitsLayout) {
+    InfoView(data: "Tello world", icon: "phone.fill")
+}
